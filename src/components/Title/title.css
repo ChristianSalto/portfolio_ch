@@ -1,0 +1,29 @@
+.cntr-inner {
+  border-style: solid;
+  border-color: #ffffff;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  max-width: 100%;
+}
+
+.inner ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: calc(-3.5rem - 1px);
+  left: calc(50% - 1px);
+  width: 1px;
+  height: calc(3.5rem + 1px);
+  background: #ffffff;
+}
+
+.inner p {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.inner {
+  padding-top: 10px;
+}

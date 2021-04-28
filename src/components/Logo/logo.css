@@ -1,0 +1,9 @@
+.logo {
+  width: 10.5rem;
+  height: 8rem;
+}
+
+.logo img {
+  width: 100%;
+  border-radius: 100px;
+}

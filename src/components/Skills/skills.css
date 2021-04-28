@@ -1,0 +1,84 @@
+.cntr-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: system-ui;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.cntr-skills div {
+  width: 33%;
+  padding: 10px;
+}
+
+.php,
+.vs,
+.js,
+.db,
+.java,
+.node,
+.git,
+.html {
+  border-bottom: 0.5px solid gray;
+}
+
+.php,
+.js,
+.vs,
+.css,
+.db {
+  border-right: 0.5px solid gray;
+}
+
+.cntr-header-skll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  margin: 0px 30px;
+}
+
+.lnk {
+  text-decoration: none;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 100px;
+  transition: 0.8s;
+}
+
+.lnk:hover {
+  background: rgb(21, 24, 24);
+}
+
+.lnk span {
+  color: gray;
+  font-size: 24px;
+  transition: 0.8s;
+}
+
+.lnk span:hover {
+  color: red;
+}
+
+.cntr-header-skll h1 {
+  border-bottom: 1px solid gray;
+}
+
+.star {
+  color: yellow;
+  margin-left: 5px;
+}
+
+.star-white {
+  margin-left: 5px;
+}
+
+.lnk-project {
+  text-decoration: none;
+  color: aqua;
+}

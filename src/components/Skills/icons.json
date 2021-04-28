@@ -1,0 +1,62 @@
+[
+  {
+    "php": "icon-php-elephant",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "This project shows some tables where you can create, add, delete and view articles. The technologies that I have used are php, html, css and for the MSQL database",
+    "star": [1, 1, 0, 0, 0, 0]
+  },
+  {
+    "java": "icon-java",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 0, 0, 0]
+  },
+  {
+    "js": "icon-javascript",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 1, 0, 0]
+  },
+  {
+    "node": "icon-node-dot-js",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 0, 0, 0]
+  },
+  {
+    "vs": "icon-visualstudiocode",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 1, 1, 0]
+  },
+  {
+    "git": "icon-github",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 0, 0, 0]
+  },
+  {
+    "db": "icon-database",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 0, 0, 0]
+  },
+  {
+    "html": "icon-html-five",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 1, 0, 0]
+  },
+  {
+    "css": "icon-css3",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 1, 0, 0]
+  },
+  {
+    "react": "icon-react",
+    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "star": [1, 1, 1, 0, 0, 0]
+  }
+]
