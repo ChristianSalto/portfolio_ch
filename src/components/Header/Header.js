@@ -1,16 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import { Logo } from './../Logo/Logo';
-import { Title } from './../Title/Title';
-import { Nav } from './../Nav/Nav';
 import './header.css';
 
-export const Header = () => {
+export const Header = ({ name }) => {
   return (
     <div className="cntr-header">
-      <Logo />
-      <Title />
-      <Nav />
+      <h1>{name}</h1>
+      <Link to="/" className="lnk" >
+        <span>&#5589;</span>
+      </Link>
     </div>
   )
 }

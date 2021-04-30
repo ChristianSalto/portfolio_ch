@@ -2,61 +2,61 @@
   {
     "php": "icon-php-elephant",
     "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "This project shows some tables where you can create, add, delete and view articles. The technologies that I have used are php, html, css and for the MSQL database",
+    "description": "This project shows some tables where you can create, add, delete,update and view articles. The technologies that I have used are php, html, css and for the MySql database",
     "star": [1, 1, 0, 0, 0, 0]
   },
   {
     "java": "icon-java",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://github.com/ChristianSalto/Ejerc-varios-java",
+    "description": "some projects,where I demonstrate my skills with this language",
     "star": [1, 1, 1, 0, 0, 0]
   },
   {
     "js": "icon-javascript",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://github.com/ChristianSalto/Proyecto-intro-JavaScript",
+    "description": "Three kata projects, where I demonstrate my skills with this language",
     "star": [1, 1, 1, 1, 0, 0]
   },
   {
     "node": "icon-node-dot-js",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://github.com/ChristianSalto/node_rest_server",
+    "description": "Rest server application with Node js, you can delete, update, create and get users, to test using Postman.",
     "star": [1, 1, 1, 0, 0, 0]
   },
   {
     "vs": "icon-visualstudiocode",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://code.visualstudio.com/",
+    "description": "It's just my favorite IDE",
     "star": [1, 1, 1, 1, 1, 0]
   },
   {
     "git": "icon-github",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://github.com/ChristianSalto/Proyecto-Git",
+    "description": "Here you have a guide to the most important git commands",
     "star": [1, 1, 1, 0, 0, 0]
   },
   {
     "db": "icon-database",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://dev.mysql.com/downloads/workbench/",
+    "description": "Here you have the download link visual database design tool MySQL Workbench",
     "star": [1, 1, 0, 0, 0]
   },
   {
     "html": "icon-html-five",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://github.com/ChristianSalto/webs_html_css_js",
+    "description": "They are just a few examples of web pages, programmed with html, css, javascript",
     "star": [1, 1, 1, 1, 0, 0]
   },
   {
     "css": "icon-css3",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://github.com/ChristianSalto/Proyecto-HTML-CSS",
+    "description": "Example project without functionalities, where we can observe the semantics of html, the css with some effects and the structure of packages or hierarchy",
     "star": [1, 1, 1, 1, 0, 0]
   },
   {
     "react": "icon-react",
-    "url": "https://github.com/ChristianSalto/grado_superior/tree/master/desarrollo_web_servidor/curso/tarea3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    "url": "https://github.com/ChristianSalto/App-weather-react",
+    "description": "Project where an external weather api is called, the response data is processed and painted on the frontend.",
     "star": [1, 1, 1, 0, 0, 0]
   }
 ]
