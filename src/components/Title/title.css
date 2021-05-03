@@ -6,16 +6,16 @@
   max-width: 100%;
 }
 
-.inner ::before {
+/* .inner ::before {
   content: "";
   display: block;
   position: absolute;
-  top: calc(-3.5rem - 1px);
+  top: calc(-4.0rem - 1px);
   left: calc(50% - 1px);
-  width: 1px;
+  width: 0px;
   height: calc(3.5rem + 1px);
   background: #ffffff;
-}
+} */
 
 .inner p {
   text-transform: uppercase;
@@ -24,6 +24,31 @@
   line-height: 2;
 }
 
+.inner h1 {
+  text-shadow:1px 1px 9px rgb(244, 248, 255);
+	transform: scale(1);
+  transform-style: preserve-3d;
+	animation: glow 2s infinite;
+}
+
 .inner {
   padding-top: 10px;
+}
+
+
+@keyframes glow {
+
+	0% {
+		transform: scale(1);
+    text-shadow:1px 1px 9px rgb(244, 248, 255);
+	}
+
+	50% {
+    text-shadow:1px 1px 20px rgb(190, 214, 255);
+	}
+
+	100% {
+		transform: scale(1);
+    text-shadow:1px 1px 9px rgb(244, 248, 255);
+	}
 }

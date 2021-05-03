@@ -4,18 +4,20 @@ nav::before {
   position: absolute;
   top: calc(-3.5rem - 1px);
   left: calc(50% - 0.5px);
-  width: 1px;
-  height: calc(4.5rem + 1px);
+  width: 0.5px;
+  height: calc(6.6rem + 1px);
   background: #ffffff;
 }
 
 nav ul {
   display: flex;
+  margin-top: 50px;
   margin-bottom: 0;
   list-style: none;
   padding-left: 0;
   border: solid 1px #ffffff;
   border-radius: 4px;
+  margin-bottom: 42%;
 }
 
 nav ul > *:first-child {
@@ -36,6 +38,7 @@ nav ul > * {
   font-size: 0.8rem;
   border-bottom: 0;
   transition: 0.8s;
+  font-weight: bold;
 }
 
 nav ul > *:hover {

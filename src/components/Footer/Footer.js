@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer>
       <div>
-        <p>@ Christian Salto Perez - 2021</p>
+        <p>MMXXI © Christian Salto Perez</p>
       </div>
     </footer>
   )

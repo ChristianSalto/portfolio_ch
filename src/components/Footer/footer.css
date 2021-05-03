@@ -1,6 +1,6 @@
 footer {
-  margin-top: 130px;
-  color: gray;
-  opacity: 0.8;
+  margin: 130px 0;
+  color: rgb(83, 83, 83);
+  opacity: 01;
   text-align: center;
 }

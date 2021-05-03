@@ -1,64 +1,166 @@
-.cntr-skills {
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-family: system-ui;
-  padding: 10px;
-  margin-top: 20px; */
-
-  width: 300px;
-  height: 150px;
-  border: 1px solid white;
+ul {
+  list-style: none;
+  width: 100%;
+  margin:0 auto;
+  padding:0px;
 }
 
-/* .cntr-skills div {
-  width: 33%;
-  padding: 10px;
+li i {
+  padding: 20px 0 0 0;
+  font-size: 18px;
+  display: inline-block;
 }
-
-.php,
-.vs,
-.js,
-.db,
-.java,
-.node,
-.git,
-.html {
-  border-bottom: 0.5px solid gray;
-}
-
-.php,
-.js,
-.vs,
-.css,
-.db {
-  border-right: 0.5px solid gray;
-}
-
-.star {
-  color: yellow;
-  margin-left: 5px;
-}
-
-.star-white {
-  margin-left: 5px;
-}
-
-.lnk-project {
-  text-decoration: none;
-  color: aqua;
-}
-
-i {
-  opacity: 0.7;
-} */
 
 aside {
   border: 0.5px solid gray;
-  margin: 5%;
+  margin: 50px;
+  display: block;
   padding: 20px;
   border-radius: 10px;
   background: radial-gradient(#000000, #0f0e0e, #181f27);
   background-repeat: no-repeat;
+}
+.card {
+  border-color: white;
+  width: 50%;
+  height: fit-content;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 0;
+  justify-content: center;
+}
+.card div, .card:visited {
+  grid-template-columns: 1fr, 1fr;
+  cursor: default;
+  box-shadow: none;
+  border: 0.5px solid gray;
+  margin: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  background: radial-gradient(#14181a, #14181a, #181f27);
+  background-repeat: no-repeat;
+}
+.card div:hover {
+  border-radius: 10px 10px 10px 10px;
+  border-color: white;
+  box-shadow: 5px 10px #292f36;
+  transform: scale(1.03);
+  transform-style: preserve-3d;
+  transition: animation 700ms ease-in-out, border-color 300ms ease-in-out, box-shadow 300ms ease-in-out, transform 300ms ease-in-out;
+}
+.card div:not(:hover) {
+  transition: animation 700ms ease-in-out, border-color 700ms ease-in-out, box-shadow 700ms ease-in-out, transform 700ms ease-in-out;
+  animation: pulse 0.5s;
+}
+
+.card div span {
+  background-size: cover;
+  width: 100%;
+  float: right;
+}
+.card a, .card a:visited {
+  animation: brightborder 2s infinite;
+  background: linear-gradient(#000000, #0f0e0e, #181f27);
+  background-position: center;
+  border: 1px white;
+  
+  color: red;
+  background-color: inherit;
+  text-decoration: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 90px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.card a:hover {
+  background-color: red;
+  color: white;
+  transition: size 100ms ease-out, color 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+.card a:not(:hover) {
+  transition: size 100ms ease-out, color 500ms ease-in-out, background-color 500ms ease-in-out;
+}
+
+footer {
+  justify-content: center;
+  display: block;
+  width: 100%;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 1280px) {
+  .card {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) {
+  .card {
+    width: 60%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@keyframes brightborder {
+
+  0% {
+		transform: scale(1.05);
+    background-position: center;
+    background: linear-gradient(#181f27, #0f0e0e, #181f27);
+	}
+
+	20% {
+    /* box-shadow: 5px 20px #99aec7; */
+		transform: scale(1);
+    background-position: top;
+    background: linear-gradient(#181f27, #0f0e0e, #181f27);
+	}
+
+  40% {
+		transform: scale(1);
+    background-position: bottom;
+    background: linear-gradient(#181f27, #0f0e0e, #181f27);
+	}
+
+	100% {
+		transform: scale(1.05);
+    background-position: center;
+    background: linear-gradient(#181f27, #0f0e0e, #181f27);
+	}
+}
+
+@keyframes pulse {
+
+	0% {
+    
+		transform: scale(1.02);
+    /* transform: rotate3d(0,0,0, 6deg); */
+	}
+
+	20% {
+    /* box-shadow: 5px 20px #99aec7; */
+    box-shadow: 10px 5px 10px #292f36;
+		transform: scale(1);
+    /* transform: rotate3d(-30,20,0, 18deg); */
+	}
+
+  50% {
+		transform: scale(1);
+	}
+
+  80% {
+    box-shadow: 0px 5px 30px #292f36b4;
+  }
+
+	100% {
+    box-shadow: 0px 0px 60px #292f3600;
+		transform: scale(1);
+    /* transform: rotate3d(0,0,0, 6deg); */
+	}
 }
