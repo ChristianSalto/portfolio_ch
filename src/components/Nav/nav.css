@@ -1,4 +1,5 @@
-nav::before {
+/* deco line home */
+/* nav::before {
   content: "";
   display: block;
   position: absolute;
@@ -7,7 +8,7 @@ nav::before {
   width: 0.5px;
   height: calc(6.6rem + 1px);
   background: #ffffff;
-}
+} */
 
 nav ul {
   display: flex;

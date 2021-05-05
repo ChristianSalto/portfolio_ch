@@ -7,7 +7,7 @@ export const Title = () => {
     <div className="cntr-inner">
       <div className="inner">
         <h1>CHRISTIAN SALTO PEREZ</h1>
-        <p>PROGRAMADOR FULL STACK DEVELOPER</p>
+        <p>FULL STACK DEVELOPER</p>
       </div>
     </div>
   )
