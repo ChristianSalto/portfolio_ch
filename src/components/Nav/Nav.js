@@ -10,9 +10,9 @@ export const Nav = () => {
         <Link to={{
           pathname: '/skills',
         }}>SKILLS</Link>
-        <Link to={{
+        {/* <Link to={{
           pathname: '/works',
-        }}>WORKS</Link>
+        }}>WORKS</Link> */}
         <Link to={{
           pathname: '/about',
         }}>ABOUT</Link>

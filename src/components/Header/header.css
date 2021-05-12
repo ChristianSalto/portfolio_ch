@@ -10,11 +10,12 @@
 .lnk {
   text-decoration: none;
   text-align: center;
-  width: 40px;
-  height: 40px;
-  border: 1px solid gray;
-  border-radius: 100px;
   transition: 0.8s;
+  width: 50px;
+  height: 50px;
+  border-radius: 106px;
+  background: #181f27;
+  box-shadow: inset -9px -9px 18px #0f1318, inset 9px 9px 18px #212b36;
 }
 
 .lnk:hover {
@@ -23,14 +24,19 @@
 
 .lnk span {
   color: gray;
-  font-size: 24px;
+  font-size: 29px;
   transition: 0.8s;
 }
 
-.lnk span:hover {
+/* .lnk span:hover {
   color: red;
-}
+} */
 
 .cntr-header h1 {
-  border-bottom: 1px solid gray;
+  /* color: transparent; */
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
 }

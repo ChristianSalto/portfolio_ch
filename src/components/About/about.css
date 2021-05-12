@@ -1,0 +1,16 @@
+.cntr-about {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch; */
+  border-radius: 50px;
+  height: 500px;
+  margin: 50px 200px;
+  background: #0b0d0e;
+  box-shadow: 5px 5px 0px #040506, -5px -5px 0px #121516;
+  padding: 20px;
+}
+
+.cntr-about p {
+}
