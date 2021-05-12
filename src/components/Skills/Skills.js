@@ -52,4 +52,8 @@ export const Skills = () => {
       <Footer />
     </>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
